@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="con">
+    <div class="container">
+        <h2>Admin Dashboard</h2>
+        <p>Welcome, Admin!</p>
+        <button onclick="fetchUsers()">View All Users</button>
+        <button onclick="fetchAdmins()">View All Admins</button>
+        <button onclick="fetchAccounts()">My Account</button>
+        <button onclick="viewAccounts()">View All Accounts</button>
+        <button onclick="createUser()">Create User</button>
+        <div id="regform"></div>
+        <button onclick="createAccount()">Create Account</button>
+        <button onclick="logout()">Logout</button>
+        <div id="auditTrail"></div>
+    </div>
+    <div id="accountList"></div>
+    <div id="userList"></div>
+    <div id="regform1"></div>
+    <div>
+    <section id="account-management">
+        <!-- <h2>Account Overview</h2>
+        <table id="admin-account-table"> -->
+            <!-- <thead>
+                <tr>
+                    <th>Account Number</th>
+                    <th>Account Name</th>
+                    <th>Account Type</th>
+                    <th>Balance</th>
+                    <th>Opening Date</th>
+                    <th>Last Transaction Date</th>
+                    <th>Status</th>
+                    <th>Branch Name</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                Account data will be injected here by JavaScript
+            </tbody>
+        </table> -->
+    </section></div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
